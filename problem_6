@@ -1,0 +1,9 @@
+#include <stdio.h>
+int main() {
+    float a, b, mul;
+    printf("Enter two numbers: ");
+    scanf("%f %f", &a, &b);
+    mul = a * b;
+    printf("Result = %f", mul);
+    return 0;
+}
